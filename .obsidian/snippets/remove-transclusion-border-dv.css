@@ -1,0 +1,8 @@
+.markdown-embed.no-border .internal-embed,
+.markdown-embed.no-border .internal-embed::before {
+  border-left: none !important;
+  box-shadow: none !important;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+

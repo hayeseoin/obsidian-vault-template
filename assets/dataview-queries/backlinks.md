@@ -1,0 +1,6 @@
+```dataviewjs
+
+```
+```dataviewjs
+await null;
+```

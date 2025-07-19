@@ -1,0 +1,243 @@
+{
+  "workspaces": {
+    "Landing Page": {
+      "main": {
+        "id": "b12dea0c9149edf8",
+        "type": "split",
+        "children": [
+          {
+            "id": "4f6419cf5d8e9568",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "8a125809151a5b7a",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "assets/dataview-queries/top-index.md",
+                    "mode": "preview",
+                    "source": true,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "top-index"
+                }
+              },
+              {
+                "id": "374aea3a7e79bfba",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "bash_d.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "bash_d"
+                }
+              },
+              {
+                "id": "61098e4819c00920",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "indexes/index-projects.md",
+                    "mode": "preview",
+                    "source": true,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "index-projects"
+                }
+              },
+              {
+                "id": "e0aea2883e76a460",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "indexes/index-areas-python.md",
+                    "mode": "preview",
+                    "source": true,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "index-areas-python"
+                }
+              },
+              {
+                "id": "e0b349b1fa2f925c",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "index.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "index"
+                }
+              },
+              {
+                "id": "0bb11d4e192886ea",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "assets/dataview-queries/default-index.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "default-index"
+                }
+              }
+            ],
+            "currentTab": 4
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "4699f1404f267b89",
+        "type": "split",
+        "children": [
+          {
+            "id": "020b869a7f5e1e64",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "74a93cc68e38bf0c",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              },
+              {
+                "id": "3ee217e9d96d9ebb",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "templates",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              },
+              {
+                "id": "a1ecde6f251c833a",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "pinned": true,
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              }
+            ],
+            "currentTab": 2
+          }
+        ],
+        "direction": "horizontal",
+        "width": 466.5,
+        "collapsed": true
+      },
+      "right": {
+        "id": "f2c992b2b437e516",
+        "type": "split",
+        "children": [
+          {
+            "id": "93f3fd8d5b50e645",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "e016c3dfb0373b82",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "bash_d.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links from bash_d"
+                }
+              },
+              {
+                "id": "7743d2ae29ee8368",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "5a5213e6bdfaab9f",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "bash_d.md",
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of bash_d"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "switcher:Open quick switcher": false,
+          "graph:Open graph view": false,
+          "canvas:Create new canvas": false,
+          "daily-notes:Open today's daily note": false,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": false,
+          "obsidian-shellcommands:Shell commands: Custom variables": false,
+          "templater-obsidian:Templater": false,
+          "workspaces:Manage workspace layouts": false
+        }
+      },
+      "active": "e0b349b1fa2f925c",
+      "mtime": "2025-07-19T15:38:54+02:00"
+    }
+  },
+  "active": "Landing Page"
+}
