@@ -4,38 +4,71 @@
     "type": "split",
     "children": [
       {
-        "id": "c944755be60fd512",
+        "id": "a1aeb6ea8cde7e32",
         "type": "tabs",
         "children": [
           {
-            "id": "a123344c1164ed4d",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "empty",
-              "state": {},
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "a6e0feb8c32e8379",
+            "id": "f68acdfa83fd51a6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "install-php-7.4-on-al2023.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "install-php-7.4-on-al2023"
             }
           },
           {
-            "id": "7d4104de6b954cc6",
+            "id": "22dc7e9f20f76b39",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "test-note-siblings.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "test-note-siblings"
+            }
+          },
+          {
+            "id": "b29c12a28cadf650",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "install-php-7.4-on-al2023.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "install-php-7.4-on-al2023"
+            }
+          },
+          {
+            "id": "29f0ae1d0797604e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "indexes/index-archive-test.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "index-archive-test"
+            }
+          },
+          {
+            "id": "0ccc3f4f281458ab",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -48,9 +81,49 @@
               "icon": "lucide-file",
               "title": "index"
             }
+          },
+          {
+            "id": "a3f01f1b76db00ab",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "77fceb1aa7c4f563",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "spare-gmail.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "spare-gmail"
+            }
+          },
+          {
+            "id": "ec3cc25026d0fc12",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -64,25 +137,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "74a93cc68e38bf0c",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Files"
-            }
-          },
-          {
             "id": "3ee217e9d96d9ebb",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "templates",
+                "query": "tag:#resources/bash/bash_d",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -101,6 +161,19 @@
               "state": {},
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "4f9d0d5228644208",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           }
         ]
@@ -123,12 +196,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "bash_d.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from bash_d"
+              "title": "Outgoing links from index"
             }
           },
           {
@@ -152,70 +225,82 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "bash_d.md",
+                "file": "index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of bash_d"
+              "title": "Outline of index"
+            }
+          },
+          {
+            "id": "d2f0de91d2205613",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-shellcommands:Shell commands: Custom variables": false,
-      "templater-obsidian:Templater": false,
       "switcher:Open quick switcher": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "graph:Open graph view": false,
+      "obsidian-shellcommands:Shell commands: Custom variables": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7d4104de6b954cc6",
+  "active": "a3f01f1b76db00ab",
   "lastOpenFiles": [
-    "README.md",
-    "index.md",
-    "indexes/index-readme-readme.md",
-    "indexes/index-readme.md",
-    "indexes/index-README.md",
-    "indexes/index-resources.md",
-    "indexes/index-resources-amazon-linux-2023.md",
-    "install-php-7.4-on-al2023.md",
-    "indexes/index-resources-php.md",
-    "indexes/index-new-tag.md",
-    "checking-template.md",
-    "indexes/index-projects.md",
-    "indexes/index-projects-first-project.md",
-    "indexes/index-archive.md",
-    "ai-summary.md",
-    "indexes/index-projects-second-project.md",
-    "indexes/index-resources-kubernetes.md",
-    "indexes/index-resources-git.md",
     "indexes/index-projects-golden-hyperv-template.md",
-    "indexes/index-resources-wsl.md",
-    "indexes/index-resources-python-python-list-dictionary-comprehensions.md",
-    "indexes/index-resources-python.md",
-    "indexes/index-resources-bash-bash_d.md",
+    "index.md",
+    "Untitled.md",
+    "sitemap-index.md",
+    "indexes/index-navigation.md",
+    "bash-bible.md",
+    "Untitled 8.md",
+    "indexes/Untitled.md",
+    "Untitled 7.md",
+    "Untitled 6.md",
+    "Untitled 5.md",
+    "Untitled 4.md",
+    "Untitled 3.md",
+    "Untitled 2.md",
+    "Untitled 1.md",
+    "assets/archive/old-dv-table-of-contents.md",
+    "assets/archive/dv-top-nav.md.old",
+    "assets/archive/dv-top-nav-replacer.md",
+    "assets/archive/dv-siblings-table.md.old",
+    "assets/archive/dv-children-table.md.old",
+    "assets/archive/remove-backlinks.js",
+    "assets/archive/dv-top-nav-helper.js",
+    "assets/archive/dv-template-helper.js",
+    "assets/archive/create-main-index.js",
+    "assets/archive/backlink-files.js",
+    "assets/archive",
+    "assets/templates/archive/old-dv-table-of-contents.md",
+    "assets/templates/archive/dv-siblings-table.md.old",
+    "indexes/index-resources.md",
+    "spare-gmail.md",
     "indexes/index-resources-bash.md",
-    "indexes/index-daily.md",
-    "indexes/index-areas-python.md",
-    "assets/scripts/indexes-generator/indexes.ps1",
-    "assets/scripts/indexes-generator/indexes.sh",
-    "assets/scripts/indexes-generator/create-main-index.js",
-    "assets/scripts/indexes-generator/create-indexes.js",
-    "assets/scripts/indexes-generator/backlink-files.js",
-    "assets/scripts/indexes-generator",
-    "Untitled.canvas",
-    "assets/templates/templater",
-    "assets/scripts/backlink-files.js",
-    "assets/scripts/create-main-index.js",
-    "assets/scripts/craete-main-index.js"
+    "install-php-7.4-on-al2023.md",
+    "indexes/index-archive-test.md",
+    "indexes/index-archive-test-test-1.md",
+    "indexes/index-archive.md",
+    "indexes/index-archive-test-test-1-subtag.md",
+    "Untitled.canvas"
   ]
 }

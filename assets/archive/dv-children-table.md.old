@@ -1,0 +1,72 @@
+###### → Children
+```dataviewjs
+const template_version = "0.9.0"
+const current = dv.current();
+
+// Get tags from frontmatter (plain array) or file tags (dataview object)
+let currentTags = current.tags || []; // frontmatter tags are plain array
+if (current.file.etags && current.file.etags.values) {
+    // Merge with file tags, removing # prefix
+    const fileTags = current.file.etags.values.map(tag => tag.replace('#', ''));
+    currentTags = [...new Set([...currentTags, ...fileTags])]; // deduplicate
+}
+
+if (currentTags.length === 0) {
+    dv.paragraph("No tags found in this note.");
+} else {
+    // Find the most nested tag (longest path)
+    const mostNestedTag = currentTags.reduce((longest, tag) => 
+        tag.length > longest.length ? tag : longest, ""
+    );
+
+    // Get all pages with child tags (tags that start with mostNestedTag + "/")
+    const childPattern = `${mostNestedTag}/`;
+    const allPages = dv.pages();
+    const children = {};
+
+    // Group pages by their immediate child tag
+    allPages.forEach(page => {
+        // Get tags from this page (same pattern as above)
+        let pageTags = page.tags || [];
+        if (page.file.etags && page.file.etags.values) {
+            const pageFileTags = page.file.etags.values.map(tag => tag.replace('#', ''));
+            pageTags = [...new Set([...pageTags, ...pageFileTags])];
+        }
+
+        pageTags.forEach(tag => {
+            if (tag.startsWith(childPattern)) {
+                // Extract the immediate child tag (one level deeper)
+                const childTag = tag.split('/').slice(0, mostNestedTag.split('/').length + 1).join('/');
+                
+                if (!children[childTag]) {
+                    children[childTag] = [];
+                }
+                children[childTag].push(page);
+            }
+        });
+    });
+
+    if (Object.keys(children).length > 0) {
+        let childContent = "";
+        
+        // Sort child tags and display with their pages
+        Object.keys(children).sort().forEach(childTag => {
+            const tagSuffix = childTag.split('/').pop();
+            childContent += `> - **${tagSuffix}**\n`;
+            
+            // Deduplicate pages (in case they have multiple matching tags)
+            const uniquePages = [...new Map(children[childTag].map(p => [p.file.name, p])).values()];
+            
+            uniquePages
+                .sort((a, b) => a.file.name.localeCompare(b.file.name))
+                .forEach(page => {
+                    childContent += `>   - [[${page.file.name}]]\n`;
+                });
+        });
+        
+        dv.paragraph(childContent.trim());
+    } else {
+        dv.paragraph("No child notes found.");
+    }
+}
+```

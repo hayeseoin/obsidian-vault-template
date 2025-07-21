@@ -22,7 +22,7 @@
   "enable_file_templates": true,
   "file_templates": [
     {
-      "regex": ".*",
+      "regex": "^(?!.*/).*$",
       "template": "assets/templates/templater/new-note-template.md"
     }
   ],

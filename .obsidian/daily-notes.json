@@ -1,3 +1,4 @@
 {
-  "template": "assets/templates/templater/daily-note-template"
+  "template": "assets/templates/templater/daily-note-template",
+  "format": ""
 }

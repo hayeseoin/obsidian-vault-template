@@ -1,5 +1,6 @@
 [
   "dataview",
   "obsidian-shellcommands",
-  "templater-obsidian"
+  "templater-obsidian",
+  "obsidian-git"
 ]

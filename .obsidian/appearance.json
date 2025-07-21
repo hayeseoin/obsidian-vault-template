@@ -2,7 +2,8 @@
   "theme": "obsidian",
   "enabledCssSnippets": [
     "remove-transclusion-border-dv",
-    "remove-transclusion-headings"
+    "remove-transclusion-headings",
+    "embed-styles"
   ],
   "accentColor": "#6447a9",
   "showViewHeader": true

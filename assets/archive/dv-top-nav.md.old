@@ -1,0 +1,35 @@
+###### Index
+```dataviewjs
+// DATAVIEW_TEMPLATE_START assets/templates/dataview/dv-top-nav.md
+const template_version = "0.9.2"
+await null
+const activeFile = app.workspace.getActiveFile();
+
+if (!activeFile) {
+    dv.paragraph("❌ No active file");
+    return;
+}
+
+const page = dv.page(activeFile.path);
+
+if (!page || !page.tags || page.tags.length === 0) {
+    dv.paragraph("⚠️ No tags found");
+    return;
+}
+
+// Convert tags to navigation links
+const navLinks = page.tags.map(tag => {
+    // Convert tag format: "testing/test-1" -> "index-testing-test-1"
+    const fileName = "index-" + tag.replace(/\//g, "-");
+    // Display format: "testing/test-1" -> "testing > test-1"  
+    const displayText = `← ${tag}`;
+    
+    // return `[[${fileName}|${displayText}]]`;
+    return `[[${fileName}|${displayText}]]`
+});
+
+navLinks.forEach(link => dv.paragraph(link));
+// DATAVIEW_TEMPLATE_END assets/templates/dataview/dv-top-nav.md
+
+```
+
