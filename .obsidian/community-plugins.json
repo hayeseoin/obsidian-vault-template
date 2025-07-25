@@ -1,5 +1,8 @@
 [
   "dataview",
   "obsidian-shellcommands",
-  "templater-obsidian"
+  "templater-obsidian",
+  "obsidian-linter",
+  "obsidian-filename-heading-sync",
+  "obsidian-git"
 ]

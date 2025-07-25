@@ -70,19 +70,19 @@
       "update-on-file-contents-updated": "never"
     },
     "yaml-title": {
-      "enabled": false,
+      "enabled": true,
       "title-key": "title",
-      "mode": "first-h1-or-filename-if-h1-missing"
+      "mode": "first-h1"
     },
     "yaml-title-alias": {
       "enabled": false,
-      "preserve-existing-alias-section-style": true,
-      "keep-alias-that-matches-the-filename": false,
+      "preserve-existing-alias-section-style": false,
+      "keep-alias-that-matches-the-filename": true,
       "use-yaml-key-to-keep-track-of-old-filename-or-heading": true,
       "alias-helper-key": "linter-yaml-title-alias"
     },
     "capitalize-headings": {
-      "enabled": false,
+      "enabled": true,
       "style": "Title Case",
       "ignore-case-words": true,
       "ignore-words": "macOS, iOS, iPhone, iPad, JavaScript, TypeScript, AppleScript, I",
@@ -270,14 +270,24 @@
       "enabled": false
     }
   },
-  "lintOnSave": false,
+  "lintOnSave": true,
   "recordLintOnSaveLogs": false,
-  "displayChanged": true,
-  "lintOnFileChange": false,
+  "displayChanged": false,
+  "lintOnFileChange": true,
   "displayLintOnFileChangeNotice": false,
   "settingsConvertedToConfigKeyValues": true,
-  "foldersToIgnore": [],
-  "filesToIgnore": [],
+  "foldersToIgnore": [
+    "assets",
+    "indexes",
+    "attachments"
+  ],
+  "filesToIgnore": [
+    {
+      "label": "",
+      "match": "index.md",
+      "flags": "i"
+    }
+  ],
   "linterLocale": "system-default",
   "logLevel": "ERROR",
   "lintCommands": [],

@@ -1,4 +1,4 @@
 {
   "template": "assets/templates/templater/daily-note-template",
-  "format": ""
+  "format": "[Daily Note] YYYY-MM-DD"
 }
